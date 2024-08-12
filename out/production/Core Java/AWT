@@ -1,0 +1,6 @@
+-> It stands For Abstract Windows ToolKit
+-> It is a heavy weight component
+-> two packages : 1. java.awt;
+                  2. java.awt.event
+-> null - by using this layout we place the component by using coordinates.
+-> Panel - small frame

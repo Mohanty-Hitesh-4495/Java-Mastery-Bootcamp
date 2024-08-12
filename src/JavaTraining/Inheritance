@@ -1,0 +1,32 @@
+* Inheritance is of 5 types: 1.Single inheritance
+                             2.Hierarchical inheritance
+                             3.Multilevel inheritance
+                             4.Multiple inheritance
+                             5.Hybrid inheritance
+* Advantage of Inheritance: 1.Code Reusability / Redundancy of code.
+                            2.Number of objects are less in heap area.
+                            3.As the lines are reduced, the compilation time is less.
+                            4.Method Overriding can be used for version control of the software.
+Question: what you should do?
+>> Make a child class VC1 then keep  the same method
+>> In those types class we use inheritance
+
+/*
+ **********************INHERITANCE WITH A CONSTRUCTOR***********************
+  >>> Inheritance with (parameterized,parameterless,default) constructor.
+  >>> Inheritance with a block.
+  >>> block always executed before a constructor and method.
+*/
+/*  Question: Where a block can be used?
+    Answer: A block can be used for the dynamic value initialisation.
+    Question: What is Polymorphism?
+    Question: Types of Polymorphism
+    Answer: >Method overloading:
+            *In class there can be more than one method having same name but different signature.
+            *Method Location is same class but signature is different.
+            *Example: int to Ascci value.(datatype can be changed in method calling in different class through object)
+            >Method overriding:
+            *There can be more than one method having same name with same signature.
+            *Method Location is Different class.
+    >
+*/

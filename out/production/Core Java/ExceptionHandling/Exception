@@ -1,0 +1,32 @@
+-> it is coming at run time
+-> how many type of exception:
+1. Checked Exception
+2. Unchecked Exception
+-> WHAT IS CHECKED EXCEPTION?
+--->Exception which extends to a class Exception directly
+    IOException
+    SQLException
+    InterruptedException
+--->In case of checked Exception writing of try-catch or throws is compulsory.
+-> WHAT IS UNCHECKED EXCEPTION?
+--->Exception which extends to a class called RuntimeException
+--------------------------------------------------------------------------------------------------------------------
+-> Arithmetic Exception:
+    1. 10/0 : object created inside the JVM -> Looks for the try,catch -> object is back in JVM for handling
+             -> inside the catch method printStackTrace() method is called ()
+    2. 10.0/0 : infinity
+    3. 10.0f/0 : infinity
+    4. -10.0/0 : -infinity
+    5. 0.0/0 : NaN
+-> Note: Throwable -> Exception -> RuntimeException -> ArithmeticException
+-> Advantage of try Catch : When the Exception occurs in try block control stops.
+                            And then after catch block remaining statements will also execute.
+-> Note: Exception to be written in the last.Not at the beginning.
+-> Throw Keyword : -> This keyword is used to throw System defined Exception.
+                   -> In case of user defined exception is also ours.
+-> Finally block : -> This is a block which can executed even if we are having an Exception or not.
+--> Throws : when a method is capable of causing an exception.
+    but it does not handle than write 'throws' and type of exception against the method name.
+    so that we can handle the exception art the column
+-->Throws IOException - Checked
+-->Throws ArithmeticException - no try-catch -> unChecked

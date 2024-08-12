@@ -1,0 +1,6 @@
+1. In case of interface we can write a default method with the definition also.
+2. THERE ARE TWO INTERFACE A AND B. THEY CONTAIN A METHOD WITH A SIGNATURE. CLASS CC IMPLEMENTS A AND B.
+3. can we keep ane interface within another interface?
+4. if yes, then how will the class which implements that interface will use it?
+_________________________________________________________________________________________________________
+Frequent item-set or

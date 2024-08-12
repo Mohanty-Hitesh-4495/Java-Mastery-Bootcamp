@@ -1,0 +1,17 @@
+-> this topic deals with unreferenced or unwanted clearance or removal.
+-> so far many objects we have created, but those objects are not cleaned.
+-> How to clean?
+   -> make the object eligible for the garbage collection - it means make the object as unreferenced...
+-> how to make an object unreferenced?
+   -> Assigned the object to the null.
+   -> reassign the object.
+   -> local variables are automatically destroyed JVM.
+   -> use of "island of isolation".
+-> how to clean it?
+   -> system.gc();
+   -> Runtime.getRuntime().gc();
+-> protected void finalize()
+-> finallize cleancs
+->
+->
+->
